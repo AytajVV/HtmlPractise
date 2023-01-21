@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    background-color: teal;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.child{
+    background-color: white;
+    height: 700px;
+    width: 600px;
+   
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+    
+    
+
+}
+.lilChild{
+    height: 100%;
+    width: 100%;
+    border: 2px solid green;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+
+.text{
+    margin: 20px 0;
+    border-bottom: 2px solid green;
+    background-color: aqua;
+}
