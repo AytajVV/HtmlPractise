@@ -1,0 +1,20 @@
+.center{
+
+  display: flex;
+  justify-content: center;
+
+}
+.backDiv{
+   display: flex;
+   justify-content: center;
+    background-color:white;
+}
+.mainDiv{
+    height: 646px;
+    width: 600px;
+    border-radius: 20px;
+    background-color: coral;
+}
+ .fields{
+    margin-left: 25px;
+ }

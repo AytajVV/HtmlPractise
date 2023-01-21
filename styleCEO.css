@@ -1,0 +1,40 @@
+.backDiv{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    
+}
+.mainDiv{
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.img{
+    background-color: black;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.person{
+    width: 230px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 50%;
+    
+}
+.about{
+    text-align: center;
+    background-color: red;
+}
+.button{
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: darkblue;
+    color:red
+}
