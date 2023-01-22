@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url(https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap);
+.main{
+    background-color: teal;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.box{
+    width: 450px;
+    height: 500px;
+    background-color: aliceblue;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box1{
+    background-color: brown;
+    width: 110px;
+    height: 100px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+i{
+    margin-top: 33px;
+    font-size: 33px;
+    color: white;
+}
+.box2{
+    margin-top: 30px;
+    text-align: center;
+}
+.lorem{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
