@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+.transform{
+    width: 100px;
+    height: 80px;
+    background-color: red;
+    transition: transform 2s;
+}
+
+.transform:hover{
+    transform: rotate(180deg);
+}
+
+/* .animation{
+    height: 200px;
+    width: 200px;
+    background-color: teal;
+    animation-name: Test1;
+    animation-duration: 5s;
+    position: absolute;
+    animation-direction: reverse;
+} */
+
+/* @keyframes Test{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: green;
+    }
+}
+
+
+@keyframes Test1{
+    0%{
+        background-color: red;
+        top: 0;
+        left: 0;
+    }
+    25%{
+        background-color: green;
+        top: 0;
+        left: 500px;
+        transform: rotate(45deg);
+    }
+    50%{
+        background-color: tomato;
+        left: 500px;
+        top: 300px;
+        transform: rotate(90deg);
+    }
+    75%{
+        background-color: lightcoral;
+        top: 300px;
+        left: 0;
+        transform: rotate(180deg);
+    }
+    100%{
+        background-color: lightsalmon;
+        top: 0;
+        left: 0;
+        transform: rotate(360deg);
+    }
+} */
+.animation{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: greenyellow;
+    position: absolute;
+    animation-name: Test2;
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+
+
+    
+   
+   
+    
+    
+    
+}
+
+@keyframes Test2{
+    0%{
+        top: 0;
+        left: 0;
+        transform: rotate(0deg);
+        background-color: #92B901;
+    }
+    10%{
+        transform: rotate(20deg);
+    }
+    50%{
+        transform: rotate(0deg);
+        top: 0;
+        left: 500px;
+        background-color: blue;
+    }
+    
+    100%{
+        transform: rotate(-360deg);
+        top: 0;
+        left: 0;
+    }
+
+    
+}
